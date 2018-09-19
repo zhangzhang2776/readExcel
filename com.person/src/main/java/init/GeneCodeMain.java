@@ -41,7 +41,7 @@ public class GeneCodeMain {
         MyBatisGenerator myBatisGenerator = null;  
         try {  
             myBatisGenerator = new MyBatisGenerator(config, callback, warnings);
-            //logger.trace("myBatisGenerator");
+           
             System.out.println("代码自动生成完成！请刷新项目");
         } catch (InvalidConfigurationException e) {  
             e.printStackTrace();  
